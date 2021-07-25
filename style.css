@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;family=Raleway:wght@200;600&family=Source+Sans+Pro:wght@300;400&display=swap');
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+h1,h2,h3,h4,h6{
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 600 !important;
+    
+}
+h5{ 
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 300;
+}
+p,span,i,b,a{
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 200;
+}
+.bg-section{ 
+    background-color: #F6F6F6;
+    
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.navbar ul li a{ 
+    color: #999999 !important;
+    font-size: 18px;
+    margin-right: 20px;
+    border-bottom: 2px solid transparent;   
+}
+.navbar ul li a:hover{ 
+    color: brown !important;
+    border-bottom: 2px solid brown;  
+}
+.icon a{
+    color: #999999;
+    padding: 10px;
+   
+}
+.icon a:hover{
+    color: brown;
+    padding: 10px;
+   
+}
+/* slider css */
+.slider-des h6{ 
+    color:#818181; 787878;
+    font-weight: 600;
+   
+}
+.slider-des h2{ 
+    color:#787878;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.slider-des h4{ 
+    color:#787878;
+    font-size: 25px;
+    font-weight: 600;
+}
+.slider-des p{ 
+    color:#787878;
+    font-size: 14px;
+}
+.slider-des .link{
+    background-color: #717171;
+    font-size: 15px;
+    padding: 5px 25px;
+}
+.slider-des .link:hover{
+    background-color: #717171e3;;
+    font-size: 15px;
+    padding: 5px 25px;
+}
+
+
+/* catagpries section */
+
+.catagori-heading{
+    font-size: 20px;
+    position: relative;
+    top: 32%;
+    left: 10%;
+    font-weight: bold;
+}
+.catagori-heading:hover{
+    color: red;
+}
+.card-footer- span{
+    font-size: 30px;
+    padding: 5px 25px;
+    color: #717171;
+    font-weight: bold;
+}
+.card.py-5.px-3 {
+    padding: 91px 13px 63px 11px !important;
+    background-color: #F6F6F6;
+}
+.second-card i{
+    font-size: 10px;
+    margin-right: 5px;
+}
+/* product css */
+.product-section h2,.blog h2{
+ 
+    font-weight: 600;
+}
+.product-details{
+    border-top: 3px solid #f6f6f6;
+    padding: 0 20px;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 600;
+}
+.product-item img{
+    width: 200px;
+}
+
+.blog a{
+    color: #999999;
+    text-decoration: none;
+}
+
+.newsteller input{
+    background-color: #f6f6f6;
+}
+
+.footer-menu ul li a{ 
+    color: #999999 !important;
+    font-size: 18px;
+    margin-right: 20px;
+    border-bottom: 2px solid transparent;   
+}
+.footer-menu ul li a:hover{ 
+    color: brown !important;
+    border-bottom: 2px solid brown;  
+}
+.sub-footer i{
+    padding: 10px 10px;
+    color: #717171;
+}
+.sub-footer img{
+    padding: 5px;
+}
+.sub-footer i:hover{
+   padding: 10px;
+   background-color: brown;
+   color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+.catagori-heading{
+    font-size: 20px;
+    position: relative;
+    top: -436%;
+    left: 61%;
+    font-weight: bold;
+    /* bottom: -69%; */
+}
+}
+  }
